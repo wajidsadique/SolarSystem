@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./assest/universe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sun-1{
+    width: 90px;
+    height: 90px;
+    border: 0px dotted ;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(252, 165, 3);
+    box-shadow: 0px 0px 20px 20px red;
+
+}
+
+
+#mercury-2{
+    width: 200px;
+    height: 200px;
+    border: 2px dotted white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation-name: nep-2;
+    animation-duration: 120s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.icons-2{
+    position: absolute;
+    left: 165px;
+    
+}
+@keyframes nep-2{
+    to{
+        transform: rotate(360deg);
+    }
+}
+#venus-3{
+    width: 300px;
+    height: 300px;
+    border: 2px dotted white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation-name: nep-3;
+    animation-duration: 240s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.icons-3{
+    position: absolute;
+    left: 265px;
+    
+}
+@keyframes nep-3{
+    to{
+        transform: rotate(360deg);
+    }
+}
+#earth-4{
+    width: 400px;
+    height: 400px;
+    border: 2px dotted white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation-name: nep-4;
+    animation-duration: 480s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.icons-4{
+    position: absolute;
+    left: 365px;
+    
+}
+@keyframes nep-4{
+    to{
+        transform: rotate(360deg);
+    }
+}
+#mars-5{
+    width: 500px;
+    height: 500px;
+    border: 2px dotted white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation-name: nep-5;
+    animation-duration: 960s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.icons-5{
+    position: absolute;
+    left: 470px;
+    
+}
+@keyframes nep-5{
+    to{
+        transform: rotate(360deg);
+    }
+}
+#jupiter-6{
+    width: 600px;
+    height: 600px;
+    border: 2px dotted white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation-name: nep-6;
+    animation-duration: 1920s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.icons-6{
+    position: absolute;
+    left: 570px;
+    
+}
+@keyframes nep-6{
+    to{
+        transform: rotate(360deg);
+    }
+}
+#saturn-7{
+    width: 700px;
+    height: 700px;
+    border: 2px dotted white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation-name: nep-7;
+    animation-duration: 3840s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.icons-7{
+    position: absolute;
+    left: 670px;
+}
+@keyframes nep-7{
+    to{
+        transform: rotate(360deg);
+    }
+}
+#uranus-8{
+    width: 800px;
+    height: 800px;
+    border: 2px dotted white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    animation-name: nep-8;
+    animation-duration: 7680s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes nep-8{
+    to{
+        transform: rotate(360deg);
+    }
+}
+.icons-8{
+    position: absolute;
+    left: 770px;
+    
+}
+
+@keyframes nep-8{
+    to{
+        transform: rotate(360deg);
+    }
+}
+#neptune-9{
+    width: 900px;
+    height: 900px;
+    border: 2px dotted white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation-name: nep-9;
+    animation-duration: 15360s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.icons-9{
+    position: absolute;
+    left: 870px;
+   
+}
+
+@keyframes nep-9{
+    to{
+        transform: rotate(360deg);
+    }
+}
